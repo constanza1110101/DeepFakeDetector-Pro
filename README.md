@@ -1,31 +1,34 @@
-# DeepFakeDetectorPro
-
-**DeepFakeDetectorPro** is a powerful and efficient tool designed to detect deepfake content using both image and audio analysis. The project utilizes advanced deep learning models to detect anomalies in visual and auditory content that may indicate tampering or manipulation.
+DeepFakeDetectorPro
+DeepFakeDetectorPro is a powerful and efficient tool designed to detect deepfake content using both image and audio analysis. The project utilizes advanced deep learning models to detect anomalies in visual and auditory content that may indicate tampering or manipulation.
 
 This repository contains the necessary components to run deepfake detection using pre-trained models for image and audio data, with detailed forensic reporting and blockchain verification.
 
-## Features
+Features
+Image Analysis: Detects deepfake videos and images by analyzing pixel-level inconsistencies.
 
-- **Image Analysis**: Detects deepfake videos and images by analyzing pixel-level inconsistencies.
-- **Audio Analysis**: Analyzes audio files for any abnormalities or signs of manipulation (audio analysis is under development).
-- **Metadata Analysis**: Analyzes file metadata to detect potential signs of tampering.
-- **Confidence Scoring**: Provides a confidence score based on the likelihood of deepfake detection.
-- **Forensic Reporting**: Generates a detailed forensic report, including blockchain verification hashes for storing results securely.
-- **Pre-trained Models**: Utilizes pre-trained deepfake detection models for both vision and audio.
+Audio Analysis: Analyzes audio files for any abnormalities or signs of manipulation (audio analysis is under development).
 
-## Installation
+Metadata Analysis: Analyzes file metadata to detect potential signs of tampering.
 
-To get started with **DeepFakeDetectorPro**, follow the steps below to set up your local development environment.
+Confidence Scoring: Provides a confidence score based on the likelihood of deepfake detection.
 
-### Prerequisites
+Forensic Reporting: Generates a detailed forensic report, including blockchain verification hashes for storing results securely.
 
-- Node.js v14 or higher
-- TensorFlow.js (tfjs-node)
-- Pre-trained deepfake detection models (vision and audio models)
+Pre-trained Models: Utilizes pre-trained deepfake detection models for both vision and audio.
 
-### 1. Clone the Repository
+Installation
+To get started with DeepFakeDetectorPro, follow the steps below to set up your local development environment.
 
-```bash
+Prerequisites
+Node.js v14 or higher
+
+TensorFlow.js (tfjs-node)
+
+Pre-trained deepfake detection models (vision and audio models)
+
+1. Clone the Repository
+bash
+Copiar código
 git clone https://github.com/yourusername/DeepFakeDetectorPro.git
 cd DeepFakeDetectorPro
 2. Install Dependencies
